@@ -2,7 +2,7 @@
   <img src="./public/logo.svg" alt="Logo" width="800">
        <br />
     <br />
-    Podcast website with initial design created by <a href="https://www.instagram.com/tiagoluchtenberg/">Tiago Luchtenberg</a>
+    Podcast website with initial design created by <a href="https://www.instagram.com/tiagoluchtenberg/">Tiago Luchtenberg</a> </br>
     and recreated with night mode by <a href="https://www.linkedin.com/in/levi-melo-dos-santos-5277441a1/">Levi Melo</a>  
 </div>
 
