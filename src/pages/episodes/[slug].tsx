@@ -30,18 +30,18 @@ type EpisodeProps = {
 
 
 export default function Episode({ episode }: EpisodeProps) {
-  const { play } = usePlayer();
+  const { play, nightMode} = usePlayer();
 
   return (
-    <div className={styles.episode}>
-
+    <div className={nightMode? styles.nightEpisode :styles.episode}>
+      <div className={styles.content}>
       <Head>
         <title>{episode.title} | Podcastr</title>
       </Head>
       <div className={styles.thumbnailContainer}>
         <Link href="/">
           <button type="button">
-            <img src="/arrow-left.svg" alt="Voltar" />
+            <img src={nightMode? "/backNight.svg" : "/arrow-left.svg"} alt="Voltar" />
           </button>
         </Link>
         <Image
@@ -51,7 +51,7 @@ export default function Episode({ episode }: EpisodeProps) {
           objectFit="cover"
         />
         <button type="button" onClick={() => play(episode)}>
-          <img src="/play.svg" alt="Tocar episódio" />
+          <img src={nightMode? "/playNight.svg" : "/play.svg"} alt="Tocar episódio" />
         </button>
       </div>
       <header>
@@ -61,6 +61,7 @@ export default function Episode({ episode }: EpisodeProps) {
         <span >{episode.durationAsString}</span>
       </header>
       <div className={styles.description} dangerouslySetInnerHTML={{ __html: episode.description }} />
+      </div>
     </div>
   )
 }

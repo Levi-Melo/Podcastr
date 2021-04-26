@@ -16,5 +16,50 @@
   span{
     margin-left: auto;
     text-transform: capitalize;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    
+    button{
+      background:transparent;
+      border: 0;
+      font-size: 0;
+      margin-right: 1.5rem;
+
+    }
+  }
+}
+
+.nightHeader{
+  background:#41414D;
+  height:6.5rem;
+
+  display:flex;
+  align-items: center; 
+  
+  padding:2rem 4rem;
+
+  border-bottom: 1px solid #44475a;
+  color: var(--gray-50);
+
+  p{
+    margin-left: 2rem;
+    padding: 0.25rem 0 0.25rem 2rem;
+    border-left: 1px solid var(--green-500);
+  }
+  span{
+    margin-left: auto;
+    text-transform: capitalize;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    
+    button{
+      background:transparent;
+      border: 0;
+      font-size: 0;
+      margin-right: 1.5rem;
+
+    }
   }
 }

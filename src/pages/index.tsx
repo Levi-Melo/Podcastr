@@ -28,17 +28,17 @@ type HomeProps = {
 }
 
 export default function Home({ latestEpisodes, allEpisodes }: HomeProps) {
-  const { playList } = usePlayer();
+  const { playList, nightMode } = usePlayer();
 
   const episodeList = [...latestEpisodes, ...allEpisodes];
 
   return (
-    <div className={styles.homePage}>
+    <div className={nightMode? styles.nightMode : styles.homePage}>
       <Head>
         <title>Home | Podcastr</title>
       </Head>
 
-      <section className={styles.latestEpisodes}>
+      <section className={nightMode? styles.latestEpisodesNightMode : styles.latestEpisodes}>
         <h2>Últimos lançamentos</h2>
 
         <ul>
@@ -72,7 +72,7 @@ export default function Home({ latestEpisodes, allEpisodes }: HomeProps) {
 
       </section>
 
-      <section className={styles.allEpisodes}>
+      <section className={nightMode? styles.allEpisodesNightMode : styles.allEpisodes}>
         <h2>Todos episódeos</h2>
 
         <table cellSpacing={0}>
