@@ -3,7 +3,7 @@
        <br />
     <br />
     Podcast website with initial design created by <a href="https://www.instagram.com/tiagoluchtenberg/">Tiago Luchtenberg</a>
-    and done by <a href="https://www.linkedin.com/in/levi-melo-dos-santos-5277441a1/">Levi Melo</a>  
+    and recreated with night mode by <a href="https://www.linkedin.com/in/levi-melo-dos-santos-5277441a1/">Levi Melo</a>  
 </div>
 
 ## Index
