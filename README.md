@@ -20,7 +20,7 @@ Create an web application with Next.js that works to listen podcasts
 -TypeScript<br />
 -sass<br />
 
-##External Libraries
+## External Libraries
 -json server<br />
 -axios<br />
 -rc-slider<br />
