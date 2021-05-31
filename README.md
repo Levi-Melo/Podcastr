@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./public/logo.svg" alt="Logo" width="800">
+  <img src="./public/logo.svg" alt="Logo" width="600">
        <br />
     <br />
     Podcast website with initial design created by <a href="https://www.instagram.com/tiagoluchtenberg/">Tiago Luchtenberg</a> </br>
